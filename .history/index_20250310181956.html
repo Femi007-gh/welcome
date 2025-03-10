@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f0f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .green-button {
+            background-color: #3ba349;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .container {
+            background-color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 380px;
+        }
+        .container img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: gray;
+        }
+        input {
+            width: calc(100% - 20px);
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background: #d3d3d3;
+        }
+        .password-container {
+            display: flex;
+            align-items: center;
+            background: #d3d3d3;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            width: calc(100% - 20px);
+            margin: 10px 0;
+        }
+        .password-container input {
+            border: none;
+            outline: none;
+            flex: 1;
+            background: transparent;
+            padding: 5px;
+        }
+        .password-container i {
+            cursor: pointer;
+            font-size: 18px;
+            margin-left: 10px;
+        }
+        .sign-in-button {
+            background-color: #2d74c4;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .links {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .links a {
+            color: gray;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .links a.underline {
+            color: blue;
+            text-decoration: underline;
+        }
+        .fit {
+          height: 3px;
+        }
+    </style>
+</head>
+<body>
+    <button class="green-button">Click Here to start your journey Nominate and Vote</button>
+    <div class="container">
+        <img src="Logo.jpg" alt="Nigerian Shippers Council Logo">
+        <p>Welcome Back!</p>
+        <input type="email" placeholder="Email" class="lit">
+        <div class="password-container">
+            <input type="password" placeholder="Password" class="fit">
+        </div>
+        <button class="sign-in-button">Sign IN</button>
+        <div class="links">
+            <a href="#" class="underline">Forgot password? click</a>
+            <a href="#" class="underline">Signup as RSP click</a>
+        </div>
+    </div>
+</body>
+</html>
